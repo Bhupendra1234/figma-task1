@@ -14,9 +14,9 @@ const Main = (props) => {
             <div className='flex items-center justify-between'>
                 <Image src={Photo} alt="ArrowLeft" className='w-[100px] h-[100px]' />
                 <div className='flex flex-col leading-7'>
-                    <p className='text-lg'>{props?.time}</p>
-                    <p className='text-lg text-[#E97000]'>{props?.name}</p>
-                    <p className='text-lg'>{props?.location}</p>
+                    <p >{props?.time}</p>
+                    <p className='text-[#E97000]'>{props?.name}</p>
+                    <p >{props?.location}</p>
                     {!!props?.test && <p>Test: {props.test}</p> }
                 </div>
             </div>
