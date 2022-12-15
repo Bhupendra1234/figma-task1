@@ -12,10 +12,10 @@ const Main = (props) => {
                 <button className='btn'>Medicine</button>
             </div>
             <div className='flex items-center justify-between'>
-                <Image src={Photo} alt="ArrowLeft" className='w-[100px] h-[100px]' />
-                <div className='flex flex-col leading-7'>
+                <Image src={Photo} alt="ArrowLeft" className='w-[84px] h-[84px] object-contain' />
+                <div className='flex flex-col text-sm'>
                     <p >{props?.time}</p>
-                    <p className='text-[#E97000]'>{props?.name}</p>
+                    <p className=' text-[#E97000]'>{props?.name}</p>
                     <p >{props?.location}</p>
                     {!!props?.test && <p>Test: {props.test}</p> }
                 </div>
