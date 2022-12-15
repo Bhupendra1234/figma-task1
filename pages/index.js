@@ -5,7 +5,7 @@ import { profileData } from '../data';
 export default function Home() {
   return (
     <div className='flex  items-center justify-center bg-slate-300'>
-      <div className='flex flex-col shadow-xl bg-neutral-50 p-4 rounded-tr-lg w-full'>
+      <div className='flex flex-col shadow-xl bg-neutral-50 p-4 rounded-tr-lg'>
         <div className='flex items-center justify-center relative'>
           <Image src={ArrowLeft} alt="ArrowLeft" className='absolute left-0' />
           <p className='font-semibold'>UPCOMIMG ASSIGNMENTS</p>
