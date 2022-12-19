@@ -4,8 +4,8 @@ import Main from '../components/Main.jsx'
 import { profileData } from '../data';
 export default function Home() {
   return (
-    <div className='flex  items-center justify-center bg-slate-300'>
-      <div className='flex flex-col shadow-xl bg-neutral-50 p-4 rounded-tr-lg'>
+    <div className='flex  items-center justify-center  bg-slate-300'>
+      <div className='flex flex-col w-screen shadow-xl bg-neutral-50 p-4 rounded-tr-lg'>
         <div className='flex items-center justify-center relative'>
           <Image src={ArrowLeft} alt="ArrowLeft" className='absolute left-0' />
           <p className='font-semibold'>UPCOMIMG ASSIGNMENTS</p>
@@ -17,7 +17,7 @@ export default function Home() {
         {profileData.map((data, index) => {
           return <Main key={index} {...data} />
         })}
-        <button className='w-full mt-3 shadow-xl bg-[#F7F7F7] p-4 rounded-xl'>Back</button>
+        <button className='w-full mt-3 shadow-xl bg-[#EDEDED] p-4 rounded-xl'>Back</button>
       </div>
     </div>
   )

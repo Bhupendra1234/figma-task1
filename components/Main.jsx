@@ -4,7 +4,7 @@ import View from '../assets/view.svg'
 import Photo from '../assets/photo.svg'
 const Main = (props) => {
     return (
-        <div className='shadow-xl bg-[#F7F7F7] mt-3 py-5 px-3 rounded-xl space-y-8 '>
+        <div className='shadow-xl bg-[#F6F6F6] mt-3 py-5 px-3 rounded-xl space-y-8 '>
             <div className='flex items-center justify-between space-x-2'>
                 <button className='bg-gradient-to-tr from-[#FF8412] via-[#D23758] to-[#B1008A] btn text-white'>Clinic</button>
                 <button className={`btn ${!!props?.test?'bg-gradient-to-tr from-[#FF8412] via-[#D23758] to-[#B1008A] text-white':''}`}>Test</button>
